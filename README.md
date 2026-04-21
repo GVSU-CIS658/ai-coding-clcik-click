@@ -1,12 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Sr4G1tzW)
-# Project Details
+# Stock Watchlist
 
-Hello students!
+This project is a Vue-based stock watchlist app built for the CIS 658 AI-assisted web app hackathon.
 
-For detailed instructions and requirements for this Hackathon, please click the link below:
+## Features
 
-[Details](https://gvsu-cis658.github.io/projects/hackathon.html)
+- search stocks with Finnhub
+- add and remove stocks from a watchlist
+- view live quote snapshots for saved stocks
+- simple navigation with Home and Watchlist pages
 
-Please read all instructions carefully before starting your work. If you have any questions, feel free to ask.
+## Tech Stack
 
-Happy coding!
+- Vue 3
+- Vue Router
+- Pinia
+- Vuetify
+- Finnhub API
+
+## Project Structure
+
+- `front-end/`: main application
+- `back-end/`: currently unused
+
+## Run Locally
+
+```sh
+cd front-end
+npm install
+npm run dev
+```
+
+## Build
+
+```sh
+cd front-end
+npm run build
+```
+
+## Deploy
+
+```sh
+cd front-end
+npm run deploy
+```
+
+## Development Note
+
+- AI tools used: Codex / ChatGPT-style assistance
+- Stock API used: Finnhub
+- Working features: stock search, company lookup, live quote display, watchlist management
+- Incomplete features: historical graphing was not used because Finnhub candle access appeared restricted for the available key
